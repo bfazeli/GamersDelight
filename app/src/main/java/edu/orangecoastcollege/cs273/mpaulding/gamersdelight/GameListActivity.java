@@ -3,7 +3,9 @@ package edu.orangecoastcollege.cs273.mpaulding.gamersdelight;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.List;
 
@@ -48,6 +50,8 @@ public class GameListActivity extends AppCompatActivity {
     public void clearAllGames(View view)
     {
         // TODO:  Delete all games from the database and lists
+        ImageView gameListImageView = (ImageView) findViewById(R.id.gameListImageView);
+        TextView gameListTe
     }
 
 }

@@ -49,6 +49,7 @@ public class GameListAdapter extends ArrayAdapter<Game> {
 
         //TODO:  Code for getting the view of a list item correctly inflated.
 
+
         return view;
     }
 }
